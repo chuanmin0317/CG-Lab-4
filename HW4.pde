@@ -30,8 +30,8 @@ void setup() {
     main_camera = new Camera();
     engine = new Engine();
 
-    GameObject model = new GameObject("data/Meshes/Elon_Musk_head.obj");
-    model.material = new TextureMaterial("data/Textures/Elon_Musk_head.bmp");
+    //GameObject model = new GameObject("data/Meshes/Elon_Musk_head.obj");
+    //model.material = new TextureMaterial("data/Textures/Elon_Musk_head.bmp");
     
     engine.renderer.addGameObject(model);
     engine.renderer.addGameObject(basic_light);
