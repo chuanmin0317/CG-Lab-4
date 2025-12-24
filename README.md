@@ -67,8 +67,6 @@ https://github.com/user-attachments/assets/4ce4368c-3677-4f05-a43d-f26a3645e442
 3. 執行程式(Run)
 - 新增 `TextureMaterial` 類別，支援載入圖片 (PImage)。
 
-- 在 `Mesh.pde` 確保正確讀取 `.obj` 檔案中的 UV 座標 (`vt`)。
-
 - 在 Shader 中實作 UV 插值與紋理採樣 (Sampling)。
 
 - 結合 Phong 光照模型，讓貼圖物體也能受光照影響（有陰影與反光）。
