@@ -13,6 +13,7 @@
   - [`Material::PhongMaterial`](./Material.pde)
   - [`ColorShader::PhongVertexShader`](./ColorShader.pde)
   - [`ColorShader::PhongFragmentShader`](./ColorShader.pde)
+![](./vidio/phong.mp4)
 ### 3. Flat Shading
 - Implement Flat shading in the shader.
   - [`Material::FlatMaterial`](./Material.pde)
