@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/06a06640-00f4-45fe-a330-b47437ad3358
   - [`ColorShader::FlatVertexShader`](./ColorShader.pde)
   - [`ColorShader::FlatFragmentShader`](./ColorShader.pde)
 
-- 在 FlatMaterial 中計算每一個三角形的 面法向量 (Face Normal) (利用 Edge1 x Edge2)。
+- 在 `FlatMaterial` 中計算每一個三角形的 面法向量 (Face Normal) (利用 `Edge1` x `Edge2`)。
 
 - 將計算出的單一面法向量賦予該三角形的三個頂點。
 
@@ -65,9 +65,9 @@ https://github.com/user-attachments/assets/4ce4368c-3677-4f05-a43d-f26a3645e442
 // engine.renderer.addGameObject(model);
 ```
 3. 執行程式(Run)
-- 新增 TextureMaterial 類別，支援載入圖片 (PImage)。
+- 新增 `TextureMaterial` 類別，支援載入圖片 (PImage)。
 
-- 在 Mesh.pde 確保正確讀取 .obj 檔案中的 UV 座標 (vt)。
+- 在 `Mesh.pde` 確保正確讀取 `.obj` 檔案中的 UV 座標 (`vt`)。
 
 - 在 Shader 中實作 UV 插值與紋理採樣 (Sampling)。
 
